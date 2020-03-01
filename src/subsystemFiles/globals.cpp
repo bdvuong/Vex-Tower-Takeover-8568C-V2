@@ -11,3 +11,9 @@ pros::Motor tiltTable(8, pros::E_MOTOR_GEARSET_36, false, pros::E_MOTOR_ENCODER_
 
 //controller
 pros::Controller controller(pros::E_CONTROLLER_MASTER);
+
+//sensors
+pros::ADIEncoder trackingH('A', 'B'); //horizontal tracking wheel
+pros::ADIEncoder trackingRight('C', 'D'); //right tracking wheel
+pros::ADIEncoder trackingLeft('G', 'H'); //left tracking wheel
+pros::ADIButton limitSwitch('F'); //switch for the DR4B, double reverse 4 bar
