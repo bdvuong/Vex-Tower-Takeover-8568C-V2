@@ -75,12 +75,17 @@ void autonomous() {}
  */
 void opcontrol() {
 	while(true) {
-		pros::delay(10);
-
 		//controls drive
+		setDriveMotors();
 		//controls intake
+		setIntakeMotors();
 		//controls lift
+		setLiftMotors();
 		//controls tilt
-
+		setTiltMotors();
+		//macro for easier stacking
+		easyStack(); 
+		//delay
+		pros::delay(10);
 	}
 }

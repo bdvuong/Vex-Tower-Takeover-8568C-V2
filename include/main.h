@@ -81,6 +81,8 @@ void opcontrol(void);
  #include "subsystemHeaders/lift.hpp"
  #include "subsystemHeaders/intake.hpp"
  #include "subsystemHeaders/tilttable.hpp"
+ #include "autonomousMath/PIDLoop.hpp"
+ #include "miscellaneousCode/driverMacros.hpp"
 #endif
 
 #endif  // _PROS_MAIN_H_

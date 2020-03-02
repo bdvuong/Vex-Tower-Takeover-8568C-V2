@@ -2,7 +2,7 @@
 #include "main.h"
 
 //helper functions
-void setDrive(); 
+void setDrive(int left, int right); 
 
 //driver control functions
 void setDriveMotors();

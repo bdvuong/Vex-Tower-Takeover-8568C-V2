@@ -7,6 +7,13 @@ void setDrive(int left, int right) {
   driveRight = right;
 }
 
+//auton functions
+void translate(int direction, int distance) {
+  
+}
+
+
+
 //driver control functions
 // //TANK CONTROL
 // void setDriveMotors() {
@@ -31,5 +38,3 @@ void setDriveMotors() {
   int rightPower =  yAxis - xAxis;
   setDrive(leftPower, rightPower);
 }
-
-//autonomous functions
