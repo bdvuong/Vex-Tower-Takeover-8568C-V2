@@ -1,7 +1,7 @@
 {
     "py/object": "pros.conductor.project.Project",
     "py/state": {
-        "project_name": "TowerTakeoverCodev2",
+        "project_name": "Vex Tower Takeover 8568C",
         "target": "v5",
         "templates": {
             "kernel": {
