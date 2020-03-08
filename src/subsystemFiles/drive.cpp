@@ -9,7 +9,7 @@ void setDrive(int left, int right) {
 
 //auton functions
 void translate(int direction, int distance) {
-  
+
 }
 
 

@@ -83,6 +83,8 @@ void opcontrol(void);
  #include "subsystemHeaders/tilttable.hpp"
  #include "autonomousMath/PIDLoop.hpp"
  #include "miscellaneousCode/driverMacros.hpp"
+ #include "autonomousmath/odometry.hpp"
+ #include "autonomousMath/trackingAlgorithms.hpp"
 #endif
 
 #endif  // _PROS_MAIN_H_
