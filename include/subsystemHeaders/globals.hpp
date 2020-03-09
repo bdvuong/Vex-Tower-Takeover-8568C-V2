@@ -31,6 +31,3 @@ extern pros::ADIButton limitSwitch;
 #define DEG_TO_RAD PI / 180
 #define TRACKING_TICK_INCH (2.75 * PI) / 1800
 #define TRACKING_INCH_TICK 1800 / (2.75 * PI)
-#define RTRACKING_CENTER 6.0
-#define LTRACKING_CENTER 6.0
-#define HTRACKING_CENTER 6.0

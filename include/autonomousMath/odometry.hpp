@@ -1,5 +1,10 @@
 #include "main.h"
 
+//The distance between the tracking wheels and the center of the robot in inches
+#define RTRACKING_CENTER 6.0
+#define LTRACKING_CENTER 6.0
+#define HTRACKING_CENTER 6.0
+
 //structures to make things neater
 typedef struct position {
 double xPosition;
@@ -19,6 +24,7 @@ double angle;
 
 extern position currPosition;
 
+//functions
 //conversion functions
 polarCoord rectToPolar(double x, double y);
 rectCoord polarToRect(double radius, double angle);

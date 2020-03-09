@@ -147,18 +147,17 @@ double getAngleRad() {
   return currPosition.angle;
 }
 
-/*
-double getAngleDegrees() {
-  //finds a coterminal angle
+
+double getAngleDeg(){
+  //Converts angle to between 0 and 2pi (it's in radians right now)
   currPosition.angle += PI;
   while(currPosition.angle < 0) {
-    currPosition.angle += 2*PI;
+    currPosition.angle +=2*PI;
   }
-  currPosition.angle = modulo(currPosition.angle, 2 * PI);
+  currPosition.angle = modulo(currPosition.angle, 2*PI);
   currPosition.angle -= PI;
   return currPosition.angle*180/PI;
 }
-*/
 
 double modulo(double a, double b) {
   while(a > b) {
